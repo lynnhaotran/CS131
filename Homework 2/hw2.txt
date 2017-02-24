@@ -1,0 +1,67 @@
+After-action Report
+
+Problem 1: This problem was fairly straightforward; because we do not know
+what nonterminal will be passed into the grammar, we prepare the Homework 1
+grammar by returning a curried function in the tuple, which waits for a 
+nonterminal input. Once received, the nonterminal input and the rules list
+is sent to group_rules which filters out the rules list corresponding to the
+nonterminal by iterating through the entire grammar left-to-right.
+
+Problem 2: I implemented parse_prefix based on the TA slides and discussion
+sections; the function relies on a matcher which I broke down into two 
+helpers, matcher and check_rule. These two functions recursively call each 
+other, so they had to be defined with the 'and' keyword.
+Matcher's job is to traverse the list or rules bread-wise; i.e. if the non-
+terminal Expr has multiple possible rules, matcher tries them all. It tries each
+rule by passing it down to check_rule, which expands the rules depth-wise, so if
+the rule it is passed is a nonterminal, it passes that nonterminal back to the
+matcher to fetch its rules; if it is terminal, then it is checked against the
+fragment head and added to the derivation list if they are the same. The
+addition to the derivation list happens before the fragment is checked, in the
+matcher, rather than after because this allows us to "backtrack;" if later on we
+find out that derivation does not work, a return of None from check_rule will 
+prompt Matcher to continue in the rule list with the derivation list previous to checking the rejected rule." In order to handle rules with multiple symbols,
+like [N Term; N Binop; N Expr], we implement the concept of an "internal" 
+acceptor in check_rule by using currying. In the previous example, N Binop needs
+the remaining fragment and derivation list from N Term before it evaluates; to 
+achieve this behavior, when we look at N Term and determine it is non-terminal, 
+pass the "internal acceptor," which is another call to matcher for N Binop, 
+but without a fragment or derivation list, because it has not been evaluated 
+yet. This internal acceptor waits until N Term finishes its evaluations, then N
+Term passes the fragment and derivation list up to that point to the N Binop's
+matcher call, which then applies those parameters to N Binop's acceptor, and so
+forth. The top-level acceptor is called when the end of a rule has truly been
+reached. I also chose to carry all the derivations, fragments, and grammar 
+around because it simplified the code, especially since so many recursive calls
+were being made; it made it more straightforward to keep track of the correct
+parameters.
+
+This implementation performs poorly in a few ways. In general, this parser would
+work, but would not be ideal for extremely large grammars. The parser generates
+rule lists for the same nonterminals over and over again when looking for a
+matching prefix, which bogs down performance. Additionally, because the search
+is left-to-right, some fragment passed in that matches on all the right-most
+rules of a grammar, while it would still work, would be slow. This problem
+intensifies as the rule list expands breadth-wise (not as much depth-wise).
+Another issue involved with the left-to-right parsing is that this
+implementation potentially falls into an infinite loop. This is not because of
+blind alleys (which would also cause our parser to fail), but appears in the
+case when the matcher flips between two rules in a loop because they are left-
+most in a rule list, and never reaches an alternative rule that appears later
+in a list. For example, if we consider the volleyball grammar from my test case,
+and had a rule list like this:
+
+Receive -> [[N Set]; [N Spike]]
+Set -> [[N Spike]]
+Spike -> [[N Receive]; [N Mistake]]
+Mistake -> [[T"Out"]; [T"Net"]]
+
+Spike has a valid set of rules, and we can exit the nonterminal and end the
+grammar through [N Mistake]. However, as check_rule tries to break down each
+nonterminal, it ends up continually retrieving [N Receive] from Spike, thus
+never finding a terminal because it does not look at [N Mistake]. A possible
+solution to this might be to maintain a list of previously visited rules
+starting from the current nonterminal derivation to ensure rules are not
+constantly revisited "depth-wise." Another option might be to try to "look 
+ahead" at the next symbol, but that is not guaranteed to evade falling into
+an infinite loop.
