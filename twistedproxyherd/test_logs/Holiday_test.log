@@ -1,0 +1,111 @@
+2017-03-14 18:09:08-0700 [-] Log opened.
+2017-03-14 18:09:08-0700 [-] ServerHerdFactory starting on 12723
+2017-03-14 18:09:08-0700 [-] Starting factory <__main__.ServerHerdFactory instance at 0x7f08e85d98c0>
+2017-03-14 18:09:31-0700 [__main__.ServerHerdFactory] Client connection from IPv4Address(TCP, '127.0.0.1', 56694)
+2017-03-14 18:09:31-0700 [ServerHerdProtocol,0,127.0.0.1] Received message: AT Welsh +10126287.226197 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450
+2017-03-14 18:09:31-0700 [ServerHerdProtocol,0,127.0.0.1] Holiday is forwarding this info to Ball
+2017-03-14 18:09:31-0700 [ServerHerdProtocol,0,127.0.0.1] Initializing myself, Holiday, as a client.
+2017-03-14 18:09:31-0700 [-] Starting factory <__main__.PropagateMessageFactory instance at 0x7f08e6143488>
+2017-03-14 18:09:31-0700 [ServerHerdProtocol,0,127.0.0.1] Holiday is forwarding this info to Hamilton
+2017-03-14 18:09:31-0700 [ServerHerdProtocol,0,127.0.0.1] Initializing myself, Holiday, as a client.
+2017-03-14 18:09:31-0700 [-] Starting factory <__main__.PropagateMessageFactory instance at 0x7f08e6143710>
+2017-03-14 18:09:31-0700 [ServerHerdProtocol,0,127.0.0.1] Client connection lost from server. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-03-14 18:09:31-0700 [Uninitialized] Connection made. Sending to server at .
+2017-03-14 18:09:31-0700 [Uninitialized] AT Welsh +10126287.226197 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450
+2017-03-14 18:09:31-0700 [Uninitialized] Finished sending the message, closing connection.
+2017-03-14 18:09:31-0700 [Uninitialized] Connection made. Sending to server at .
+2017-03-14 18:09:31-0700 [Uninitialized] AT Welsh +10126287.226197 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450
+2017-03-14 18:09:31-0700 [Uninitialized] Finished sending the message, closing connection.
+2017-03-14 18:09:31-0700 [PropagateMessageProtocol,client] Lost connection to server.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-03-14 18:09:31-0700 [-] Stopping factory <__main__.PropagateMessageFactory instance at 0x7f08e6143710>
+2017-03-14 18:09:31-0700 [PropagateMessageProtocol,client] Lost connection to server.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-03-14 18:09:31-0700 [-] Stopping factory <__main__.PropagateMessageFactory instance at 0x7f08e6143488>
+2017-03-14 18:09:31-0700 [__main__.ServerHerdFactory] Client connection from IPv4Address(TCP, '127.0.0.1', 56924)
+2017-03-14 18:09:31-0700 [ServerHerdProtocol,1,127.0.0.1] Received message: AT Welsh +10126287.226197 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450
+2017-03-14 18:09:31-0700 [ServerHerdProtocol,1,127.0.0.1] Same message, no update.
+2017-03-14 18:09:31-0700 [ServerHerdProtocol,1,127.0.0.1] Client connection lost from server. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-03-14 18:09:43-0700 [__main__.ServerHerdFactory] Client connection from IPv4Address(TCP, '127.0.0.1', 55190)
+2017-03-14 18:09:43-0700 [ServerHerdProtocol,2,127.0.0.1] Received message: AT Welsh +10126299.105201 apple.cs.ucla.edu +34.068930-118.445127 1479413884.392014450
+2017-03-14 18:09:43-0700 [ServerHerdProtocol,2,127.0.0.1] Holiday is forwarding this info to Ball
+2017-03-14 18:09:43-0700 [ServerHerdProtocol,2,127.0.0.1] Initializing myself, Holiday, as a client.
+2017-03-14 18:09:43-0700 [-] Starting factory <__main__.PropagateMessageFactory instance at 0x7f08e50eb200>
+2017-03-14 18:09:43-0700 [ServerHerdProtocol,2,127.0.0.1] Holiday is forwarding this info to Hamilton
+2017-03-14 18:09:43-0700 [ServerHerdProtocol,2,127.0.0.1] Initializing myself, Holiday, as a client.
+2017-03-14 18:09:43-0700 [-] Starting factory <__main__.PropagateMessageFactory instance at 0x7f08e50eb368>
+2017-03-14 18:09:43-0700 [ServerHerdProtocol,2,127.0.0.1] Client connection lost from server. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-03-14 18:09:43-0700 [Uninitialized] Connection made. Sending to server at .
+2017-03-14 18:09:43-0700 [Uninitialized] AT Welsh +10126299.105201 apple.cs.ucla.edu +34.068930-118.445127 1479413884.392014450
+2017-03-14 18:09:43-0700 [Uninitialized] Finished sending the message, closing connection.
+2017-03-14 18:09:43-0700 [Uninitialized] Connection made. Sending to server at .
+2017-03-14 18:09:43-0700 [Uninitialized] AT Welsh +10126299.105201 apple.cs.ucla.edu +34.068930-118.445127 1479413884.392014450
+2017-03-14 18:09:43-0700 [Uninitialized] Finished sending the message, closing connection.
+2017-03-14 18:09:43-0700 [PropagateMessageProtocol,client] Lost connection to server.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-03-14 18:09:43-0700 [-] Stopping factory <__main__.PropagateMessageFactory instance at 0x7f08e50eb200>
+2017-03-14 18:09:43-0700 [PropagateMessageProtocol,client] Lost connection to server.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-03-14 18:09:43-0700 [-] Stopping factory <__main__.PropagateMessageFactory instance at 0x7f08e50eb368>
+2017-03-14 18:09:43-0700 [__main__.ServerHerdFactory] Client connection from IPv4Address(TCP, '127.0.0.1', 55220)
+2017-03-14 18:09:43-0700 [ServerHerdProtocol,3,127.0.0.1] Received message: AT Welsh +10126299.105201 apple.cs.ucla.edu +34.068930-118.445127 1479413884.392014450
+2017-03-14 18:09:43-0700 [ServerHerdProtocol,3,127.0.0.1] Same message, no update.
+2017-03-14 18:09:43-0700 [ServerHerdProtocol,3,127.0.0.1] Client connection lost from server. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-03-14 18:11:35-0700 [__main__.ServerHerdFactory] Client connection from IPv4Address(TCP, '127.0.0.1', 40690)
+2017-03-14 18:11:35-0700 [ServerHerdProtocol,4,127.0.0.1] Received message: AT Welsh -89873589.019497 kiwi.cs.ucla.edu +42.068930-71.445127 1579413884.392014450
+2017-03-14 18:11:35-0700 [ServerHerdProtocol,4,127.0.0.1] Holiday is forwarding this info to Ball
+2017-03-14 18:11:35-0700 [ServerHerdProtocol,4,127.0.0.1] Initializing myself, Holiday, as a client.
+2017-03-14 18:11:35-0700 [-] Starting factory <__main__.PropagateMessageFactory instance at 0x7f08e6143680>
+2017-03-14 18:11:35-0700 [ServerHerdProtocol,4,127.0.0.1] Holiday is forwarding this info to Hamilton
+2017-03-14 18:11:35-0700 [ServerHerdProtocol,4,127.0.0.1] Initializing myself, Holiday, as a client.
+2017-03-14 18:11:35-0700 [-] Starting factory <__main__.PropagateMessageFactory instance at 0x7f08e50eb488>
+2017-03-14 18:11:35-0700 [ServerHerdProtocol,4,127.0.0.1] Client connection lost from server. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-03-14 18:11:35-0700 [Uninitialized] Connection made. Sending to server at .
+2017-03-14 18:11:35-0700 [Uninitialized] AT Welsh -89873589.019497 kiwi.cs.ucla.edu +42.068930-71.445127 1579413884.392014450
+2017-03-14 18:11:35-0700 [Uninitialized] Finished sending the message, closing connection.
+2017-03-14 18:11:35-0700 [PropagateMessageProtocol,client] Lost connection to server.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-03-14 18:11:35-0700 [-] Stopping factory <__main__.PropagateMessageFactory instance at 0x7f08e50eb488>
+2017-03-14 18:11:35-0700 [Uninitialized] Connection made. Sending to server at .
+2017-03-14 18:11:35-0700 [Uninitialized] AT Welsh -89873589.019497 kiwi.cs.ucla.edu +42.068930-71.445127 1579413884.392014450
+2017-03-14 18:11:35-0700 [Uninitialized] Finished sending the message, closing connection.
+2017-03-14 18:11:35-0700 [PropagateMessageProtocol,client] Lost connection to server.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-03-14 18:11:35-0700 [-] Stopping factory <__main__.PropagateMessageFactory instance at 0x7f08e6143680>
+2017-03-14 18:11:35-0700 [__main__.ServerHerdFactory] Client connection from IPv4Address(TCP, '127.0.0.1', 40696)
+2017-03-14 18:11:35-0700 [ServerHerdProtocol,5,127.0.0.1] Received message: AT Welsh -89873589.019497 kiwi.cs.ucla.edu +42.068930-71.445127 1579413884.392014450
+2017-03-14 18:11:35-0700 [ServerHerdProtocol,5,127.0.0.1] Same message, no update.
+2017-03-14 18:11:35-0700 [ServerHerdProtocol,5,127.0.0.1] Client connection lost from server. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-03-14 18:11:59-0700 [__main__.ServerHerdFactory] Client connection from IPv4Address(TCP, '127.0.0.1', 42282)
+2017-03-14 18:11:59-0700 [ServerHerdProtocol,6,127.0.0.1] Received message: AT Alford -89873564.702692 banana.cs.ucla.edu +44.068930-72.445127 1579413884.392014450
+2017-03-14 18:11:59-0700 [ServerHerdProtocol,6,127.0.0.1] Holiday is forwarding this info to Ball
+2017-03-14 18:11:59-0700 [ServerHerdProtocol,6,127.0.0.1] Initializing myself, Holiday, as a client.
+2017-03-14 18:11:59-0700 [-] Starting factory <__main__.PropagateMessageFactory instance at 0x7f08e50eb830>
+2017-03-14 18:11:59-0700 [ServerHerdProtocol,6,127.0.0.1] Holiday is forwarding this info to Hamilton
+2017-03-14 18:11:59-0700 [ServerHerdProtocol,6,127.0.0.1] Initializing myself, Holiday, as a client.
+2017-03-14 18:11:59-0700 [-] Starting factory <__main__.PropagateMessageFactory instance at 0x7f08e50ebb00>
+2017-03-14 18:11:59-0700 [ServerHerdProtocol,6,127.0.0.1] Client connection lost from server. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-03-14 18:11:59-0700 [Uninitialized] Connection made. Sending to server at .
+2017-03-14 18:11:59-0700 [Uninitialized] AT Alford -89873564.702692 banana.cs.ucla.edu +44.068930-72.445127 1579413884.392014450
+2017-03-14 18:11:59-0700 [Uninitialized] Finished sending the message, closing connection.
+2017-03-14 18:11:59-0700 [__main__.ServerHerdFactory] Client connection from IPv4Address(TCP, '127.0.0.1', 42292)
+2017-03-14 18:11:59-0700 [Uninitialized] Connection made. Sending to server at .
+2017-03-14 18:11:59-0700 [Uninitialized] AT Alford -89873564.702692 banana.cs.ucla.edu +44.068930-72.445127 1579413884.392014450
+2017-03-14 18:11:59-0700 [Uninitialized] Finished sending the message, closing connection.
+2017-03-14 18:11:59-0700 [PropagateMessageProtocol,client] Lost connection to server.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-03-14 18:11:59-0700 [-] Stopping factory <__main__.PropagateMessageFactory instance at 0x7f08e50eb830>
+2017-03-14 18:11:59-0700 [ServerHerdProtocol,7,127.0.0.1] Received message: AT Alford -89873564.702692 banana.cs.ucla.edu +44.068930-72.445127 1579413884.392014450
+2017-03-14 18:11:59-0700 [ServerHerdProtocol,7,127.0.0.1] Same message, no update.
+2017-03-14 18:11:59-0700 [PropagateMessageProtocol,client] Lost connection to server.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-03-14 18:11:59-0700 [-] Stopping factory <__main__.PropagateMessageFactory instance at 0x7f08e50ebb00>
+2017-03-14 18:11:59-0700 [ServerHerdProtocol,7,127.0.0.1] Client connection lost from server. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]

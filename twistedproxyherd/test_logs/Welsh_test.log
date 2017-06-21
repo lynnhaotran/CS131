@@ -1,0 +1,204 @@
+2017-03-14 18:09:08-0700 [-] Log opened.
+2017-03-14 18:09:08-0700 [-] ServerHerdFactory starting on 12724
+2017-03-14 18:09:08-0700 [-] Starting factory <__main__.ServerHerdFactory instance at 0x7f6f2049c8c0>
+2017-03-14 18:09:23-0700 [__main__.ServerHerdFactory] Client connection from IPv4Address(TCP, '127.0.0.1', 43952)
+2017-03-14 18:09:31-0700 [ServerHerdProtocol,0,127.0.0.1] Received message: IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450
+2017-03-14 18:09:31-0700 [ServerHerdProtocol,0,127.0.0.1] Welsh is forwarding this info to Alford
+2017-03-14 18:09:31-0700 [ServerHerdProtocol,0,127.0.0.1] Initializing myself, Welsh, as a client.
+2017-03-14 18:09:31-0700 [-] Starting factory <__main__.PropagateMessageFactory instance at 0x7f6f1e006488>
+2017-03-14 18:09:31-0700 [ServerHerdProtocol,0,127.0.0.1] Welsh is forwarding this info to Ball
+2017-03-14 18:09:31-0700 [ServerHerdProtocol,0,127.0.0.1] Initializing myself, Welsh, as a client.
+2017-03-14 18:09:31-0700 [-] Starting factory <__main__.PropagateMessageFactory instance at 0x7f6f1e006710>
+2017-03-14 18:09:31-0700 [ServerHerdProtocol,0,127.0.0.1] Sent response: AT Welsh +10126287.226197 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450
+2017-03-14 18:09:31-0700 [Uninitialized] Connection failed. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionRefusedError'>: Connection was refused by other side: 111: Connection refused.
+	]
+2017-03-14 18:09:31-0700 [-] Stopping factory <__main__.PropagateMessageFactory instance at 0x7f6f1e006488>
+2017-03-14 18:09:31-0700 [Uninitialized] Connection made. Sending to server at .
+2017-03-14 18:09:31-0700 [Uninitialized] AT Welsh +10126287.226197 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450
+2017-03-14 18:09:31-0700 [Uninitialized] Finished sending the message, closing connection.
+2017-03-14 18:09:31-0700 [PropagateMessageProtocol,client] Lost connection to server.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-03-14 18:09:31-0700 [-] Stopping factory <__main__.PropagateMessageFactory instance at 0x7f6f1e006710>
+2017-03-14 18:09:31-0700 [__main__.ServerHerdFactory] Client connection from IPv4Address(TCP, '127.0.0.1', 58868)
+2017-03-14 18:09:31-0700 [ServerHerdProtocol,1,127.0.0.1] Received message: AT Welsh +10126287.226197 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450
+2017-03-14 18:09:31-0700 [ServerHerdProtocol,1,127.0.0.1] Same message, no update.
+2017-03-14 18:09:31-0700 [ServerHerdProtocol,1,127.0.0.1] Client connection lost from server. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-03-14 18:09:43-0700 [ServerHerdProtocol,0,127.0.0.1] Received message: IAMAT apple.cs.ucla.edu +34.068930-118.445127 1479413884.392014450
+2017-03-14 18:09:43-0700 [ServerHerdProtocol,0,127.0.0.1] Welsh is forwarding this info to Alford
+2017-03-14 18:09:43-0700 [ServerHerdProtocol,0,127.0.0.1] Initializing myself, Welsh, as a client.
+2017-03-14 18:09:43-0700 [-] Starting factory <__main__.PropagateMessageFactory instance at 0x7f6f1e006518>
+2017-03-14 18:09:43-0700 [ServerHerdProtocol,0,127.0.0.1] Welsh is forwarding this info to Ball
+2017-03-14 18:09:43-0700 [ServerHerdProtocol,0,127.0.0.1] Initializing myself, Welsh, as a client.
+2017-03-14 18:09:43-0700 [-] Starting factory <__main__.PropagateMessageFactory instance at 0x7f6f1cfb0200>
+2017-03-14 18:09:43-0700 [ServerHerdProtocol,0,127.0.0.1] Sent response: AT Welsh +10126299.105201 apple.cs.ucla.edu +34.068930-118.445127 1479413884.392014450
+2017-03-14 18:09:43-0700 [Uninitialized] Connection made. Sending to server at .
+2017-03-14 18:09:43-0700 [Uninitialized] AT Welsh +10126299.105201 apple.cs.ucla.edu +34.068930-118.445127 1479413884.392014450
+2017-03-14 18:09:43-0700 [Uninitialized] Finished sending the message, closing connection.
+2017-03-14 18:09:43-0700 [Uninitialized] Connection failed. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionRefusedError'>: Connection was refused by other side: 111: Connection refused.
+	]
+2017-03-14 18:09:43-0700 [-] Stopping factory <__main__.PropagateMessageFactory instance at 0x7f6f1e006518>
+2017-03-14 18:09:43-0700 [PropagateMessageProtocol,client] Lost connection to server.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-03-14 18:09:43-0700 [-] Stopping factory <__main__.PropagateMessageFactory instance at 0x7f6f1cfb0200>
+2017-03-14 18:09:43-0700 [__main__.ServerHerdFactory] Client connection from IPv4Address(TCP, '127.0.0.1', 57364)
+2017-03-14 18:09:43-0700 [ServerHerdProtocol,2,127.0.0.1] Received message: AT Welsh +10126299.105201 apple.cs.ucla.edu +34.068930-118.445127 1479413884.392014450
+2017-03-14 18:09:43-0700 [ServerHerdProtocol,2,127.0.0.1] Same message, no update.
+2017-03-14 18:09:43-0700 [ServerHerdProtocol,2,127.0.0.1] Client connection lost from server. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-03-14 18:09:54-0700 [ServerHerdProtocol,0,127.0.0.1] Received message: WHATSAT kiwi.cs.ucla.edu 10 1
+2017-03-14 18:09:54-0700 [-] Starting factory <HTTPClientFactory: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=+34.068930,-118.445127&radius=10&key=AIzaSyBFiGIho6fdev03Z-HiMsdMuXveVpwRygs>
+2017-03-14 18:09:54-0700 [ServerHerdProtocol,0,127.0.0.1] Sending a request to https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=+34.068930,-118.445127&radius=10&key=AIzaSyBFiGIho6fdev03Z-HiMsdMuXveVpwRygs
+2017-03-14 18:09:54-0700 [HTTPPageGetter (TLSMemoryBIOProtocol),client] 1
+2017-03-14 18:09:54-0700 [HTTPPageGetter (TLSMemoryBIOProtocol),client] Sending response: 
+	AT Welsh +10126287.226197 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450
+	{
+	  "status": "OK", 
+	  "html_attributions": [], 
+	  "results": [
+	    {
+	      "name": "Westwood Plaza", 
+	      "reference": "CmRbAAAAqIV8G5f-vw7DLDS7_tXeOKX6fWqqoZvxohRhnLYsHo6GfbsfkJXHaBHuCZ7rPSj4KwyYDBLUP017yqbZWyNJfkqQdorWbD3yAS3K7i8lAx7_mRfqW640vsmjA2ETmyBDEhBDu7KTOLJIuC423zBaunRMGhQ99Vt2FTNV53eVOTQUsIPBcC_nmQ", 
+	      "geometry": {
+	        "location": {
+	          "lat": 34.0688986, 
+	          "lng": -118.4450285
+	        }, 
+	        "viewport": {
+	          "northeast": {
+	            "lat": 34.0702475802915, 
+	            "lng": -118.4436795197085
+	          }, 
+	          "southwest": {
+	            "lat": 34.0675496197085, 
+	            "lng": -118.4463774802915
+	          }
+	        }
+	      }, 
+	      "place_id": "ChIJu_H-qIi8woARea5_EvNMbD8", 
+	      "vicinity": "Los Angeles", 
+	      "scope": "GOOGLE", 
+	      "id": "6da459e218c60894af15f5d5b4560b6fb613649e", 
+	      "types": [
+	        "route"
+	      ], 
+	      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png"
+	    }
+	  ]
+	}
+	
+	
+2017-03-14 18:09:54-0700 [-] Stopping factory <HTTPClientFactory: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=+34.068930,-118.445127&radius=10&key=AIzaSyBFiGIho6fdev03Z-HiMsdMuXveVpwRygs>
+2017-03-14 18:11:35-0700 [ServerHerdProtocol,0,127.0.0.1] Received message: IAMAT kiwi.cs.ucla.edu +42.068930-71.445127 1579413884.392014450
+2017-03-14 18:11:35-0700 [ServerHerdProtocol,0,127.0.0.1] Welsh is forwarding this info to Alford
+2017-03-14 18:11:35-0700 [ServerHerdProtocol,0,127.0.0.1] Initializing myself, Welsh, as a client.
+2017-03-14 18:11:35-0700 [-] Starting factory <__main__.PropagateMessageFactory instance at 0x7f6f1e026d40>
+2017-03-14 18:11:35-0700 [ServerHerdProtocol,0,127.0.0.1] Welsh is forwarding this info to Ball
+2017-03-14 18:11:35-0700 [ServerHerdProtocol,0,127.0.0.1] Initializing myself, Welsh, as a client.
+2017-03-14 18:11:35-0700 [-] Starting factory <__main__.PropagateMessageFactory instance at 0x7f6f1cfb03f8>
+2017-03-14 18:11:35-0700 [ServerHerdProtocol,0,127.0.0.1] Sent response: AT Welsh -89873589.019497 kiwi.cs.ucla.edu +42.068930-71.445127 1579413884.392014450
+2017-03-14 18:11:35-0700 [Uninitialized] Connection made. Sending to server at .
+2017-03-14 18:11:35-0700 [Uninitialized] AT Welsh -89873589.019497 kiwi.cs.ucla.edu +42.068930-71.445127 1579413884.392014450
+2017-03-14 18:11:35-0700 [Uninitialized] Finished sending the message, closing connection.
+2017-03-14 18:11:35-0700 [Uninitialized] Connection made. Sending to server at .
+2017-03-14 18:11:35-0700 [Uninitialized] AT Welsh -89873589.019497 kiwi.cs.ucla.edu +42.068930-71.445127 1579413884.392014450
+2017-03-14 18:11:35-0700 [Uninitialized] Finished sending the message, closing connection.
+2017-03-14 18:11:35-0700 [PropagateMessageProtocol,client] Lost connection to server.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-03-14 18:11:35-0700 [-] Stopping factory <__main__.PropagateMessageFactory instance at 0x7f6f1cfb03f8>
+2017-03-14 18:11:35-0700 [PropagateMessageProtocol,client] Lost connection to server.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-03-14 18:11:35-0700 [-] Stopping factory <__main__.PropagateMessageFactory instance at 0x7f6f1e026d40>
+2017-03-14 18:11:35-0700 [__main__.ServerHerdFactory] Client connection from IPv4Address(TCP, '127.0.0.1', 42860)
+2017-03-14 18:11:35-0700 [ServerHerdProtocol,3,127.0.0.1] Received message: AT Welsh -89873589.019497 kiwi.cs.ucla.edu +42.068930-71.445127 1579413884.392014450
+2017-03-14 18:11:35-0700 [ServerHerdProtocol,3,127.0.0.1] Same message, no update.
+2017-03-14 18:11:35-0700 [ServerHerdProtocol,3,127.0.0.1] Client connection lost from server. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-03-14 18:11:35-0700 [__main__.ServerHerdFactory] Client connection from IPv4Address(TCP, '127.0.0.1', 42874)
+2017-03-14 18:11:35-0700 [ServerHerdProtocol,4,127.0.0.1] Received message: AT Welsh -89873589.019497 kiwi.cs.ucla.edu +42.068930-71.445127 1579413884.392014450
+2017-03-14 18:11:35-0700 [ServerHerdProtocol,4,127.0.0.1] Same message, no update.
+2017-03-14 18:11:35-0700 [ServerHerdProtocol,4,127.0.0.1] Client connection lost from server. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-03-14 18:11:59-0700 [__main__.ServerHerdFactory] Client connection from IPv4Address(TCP, '127.0.0.1', 44450)
+2017-03-14 18:11:59-0700 [ServerHerdProtocol,5,127.0.0.1] Received message: AT Alford -89873564.702692 banana.cs.ucla.edu +44.068930-72.445127 1579413884.392014450
+2017-03-14 18:11:59-0700 [ServerHerdProtocol,5,127.0.0.1] Welsh is forwarding this info to Alford
+2017-03-14 18:11:59-0700 [ServerHerdProtocol,5,127.0.0.1] Initializing myself, Welsh, as a client.
+2017-03-14 18:11:59-0700 [-] Starting factory <__main__.PropagateMessageFactory instance at 0x7f6f1cfd7098>
+2017-03-14 18:11:59-0700 [ServerHerdProtocol,5,127.0.0.1] Welsh is forwarding this info to Ball
+2017-03-14 18:11:59-0700 [ServerHerdProtocol,5,127.0.0.1] Initializing myself, Welsh, as a client.
+2017-03-14 18:11:59-0700 [-] Starting factory <__main__.PropagateMessageFactory instance at 0x7f6f1cfd71b8>
+2017-03-14 18:11:59-0700 [ServerHerdProtocol,5,127.0.0.1] Client connection lost from server. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-03-14 18:11:59-0700 [Uninitialized] Connection made. Sending to server at .
+2017-03-14 18:11:59-0700 [Uninitialized] AT Alford -89873564.702692 banana.cs.ucla.edu +44.068930-72.445127 1579413884.392014450
+2017-03-14 18:11:59-0700 [Uninitialized] Finished sending the message, closing connection.
+2017-03-14 18:11:59-0700 [Uninitialized] Connection made. Sending to server at .
+2017-03-14 18:11:59-0700 [Uninitialized] AT Alford -89873564.702692 banana.cs.ucla.edu +44.068930-72.445127 1579413884.392014450
+2017-03-14 18:11:59-0700 [Uninitialized] Finished sending the message, closing connection.
+2017-03-14 18:11:59-0700 [PropagateMessageProtocol,client] Lost connection to server.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-03-14 18:11:59-0700 [-] Stopping factory <__main__.PropagateMessageFactory instance at 0x7f6f1cfd71b8>
+2017-03-14 18:11:59-0700 [PropagateMessageProtocol,client] Lost connection to server.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-03-14 18:11:59-0700 [-] Stopping factory <__main__.PropagateMessageFactory instance at 0x7f6f1cfd7098>
+2017-03-14 18:11:59-0700 [__main__.ServerHerdFactory] Client connection from IPv4Address(TCP, '127.0.0.1', 44466)
+2017-03-14 18:11:59-0700 [ServerHerdProtocol,6,127.0.0.1] Received message: AT Alford -89873564.702692 banana.cs.ucla.edu +44.068930-72.445127 1579413884.392014450
+2017-03-14 18:11:59-0700 [ServerHerdProtocol,6,127.0.0.1] Same message, no update.
+2017-03-14 18:11:59-0700 [ServerHerdProtocol,6,127.0.0.1] Client connection lost from server. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-03-14 18:12:21-0700 [ServerHerdProtocol,0,127.0.0.1] Received message: WHATSAT banana.cs.ucla.edu 10 1
+2017-03-14 18:12:21-0700 [-] Starting factory <HTTPClientFactory: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=+44.068930,-72.445127&radius=10&key=AIzaSyBFiGIho6fdev03Z-HiMsdMuXveVpwRygs>
+2017-03-14 18:12:21-0700 [ServerHerdProtocol,0,127.0.0.1] Sending a request to https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=+44.068930,-72.445127&radius=10&key=AIzaSyBFiGIho6fdev03Z-HiMsdMuXveVpwRygs
+2017-03-14 18:12:21-0700 [HTTPPageGetter (TLSMemoryBIOProtocol),client] 1
+2017-03-14 18:12:21-0700 [HTTPPageGetter (TLSMemoryBIOProtocol),client] Sending response: 
+	AT Alford -89873564.702692 banana.cs.ucla.edu +44.068930-72.445127 1579413884.392014450
+	{
+	  "status": "OK", 
+	  "html_attributions": [], 
+	  "results": [
+	    {
+	      "name": "Washington", 
+	      "reference": "CmRbAAAADMZgMq1fxoJU-22BDuUCTIOAJZPSYzRj7VgSHKJX8lhpxtgPr4421Jx94uWIcTP-irPTjgrgdTzZ2jzKwqZfwbFZpCGLJ07oauKhwAiZqiZkRHiJxdqA6SWHKrkhF8fyEhDljeypJGRWbJqvpZCSBsUsGhQJmfFpseCbzkPqpTnmceswLhkkEA", 
+	      "geometry": {
+	        "location": {
+	          "lat": 44.10561899999999, 
+	          "lng": -72.43260099999999
+	        }, 
+	        "viewport": {
+	          "northeast": {
+	            "lat": 44.133085, 
+	            "lng": -72.348089
+	          }, 
+	          "southwest": {
+	            "lat": 44.008482, 
+	            "lng": -72.50219779999999
+	          }
+	        }
+	      }, 
+	      "place_id": "ChIJM8ZoecXitEwRaBYyA2ZFTh4", 
+	      "vicinity": "Washington", 
+	      "photos": [
+	        {
+	          "photo_reference": "CoQBdwAAAHP1vv14jSK9ShGQMY4ALzLqJEjGm9ULNbx9nYio_vBVLtb5qDKgewx8aQbVj2l6wJM5pI9tocMhaMz5HfnF7a8YfdO03b_tUvTzu8b_Vo3UpGeR3jxrl9OW7GmnazYhDJ-urRUlm8wg8S7oFSK5sfDdET994IVhhHYSTUntk-o5EhB7BCSkkQ8My5U0262VP12aGhTYyICKOgmPLXEWbH6kmoD6GHwdwg", 
+	          "width": 4032, 
+	          "html_attributions": [
+	            "<a href=\"https://maps.google.com/maps/contrib/103472345771789718276/photos\">Kevin Johnson</a>"
+	          ], 
+	          "height": 3024
+	        }
+	      ], 
+	      "scope": "GOOGLE", 
+	      "id": "b9a3848ec9737c25a661797567cd6650161e1d6b", 
+	      "types": [
+	        "locality", 
+	        "political"
+	      ], 
+	      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png"
+	    }
+	  ]
+	}
+	
+	
+2017-03-14 18:12:21-0700 [-] Stopping factory <HTTPClientFactory: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=+44.068930,-72.445127&radius=10&key=AIzaSyBFiGIho6fdev03Z-HiMsdMuXveVpwRygs>
+2017-03-14 18:12:50-0700 [ServerHerdProtocol,0,127.0.0.1] Client connection lost from server. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
